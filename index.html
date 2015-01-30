@@ -25,9 +25,6 @@
                 <li class="download">
                     <a class="buttons" href="http://geoheil.github.io/TU-SEPM/releases/version1/DSA-H-1.0-SNAPSHOT.zip">Download JAR</a>
                 </li>
-                <!--<li class="download">
-                    <a class="buttons" href="https://github.com/geoHeil/TU-SEPM/tarball/master">Webstart</a>
-                </li>-->
                 <li>
                     <a class="buttons github" href="https://github.com/DSA-H/dsa-h">View On GitHub</a>
                 </li>
@@ -40,59 +37,33 @@
 
         </header>
         <section>
-            <h3>
+            <h2>
                 <a name="hi-dsa-community" class="anchor" href="#hi-dsa-community">
                     <span class="octicon octicon-link"></span>
-                </a>Hi DSA Community</h3>
+                </a>DSA Händlertool</h2>
 
-            <p>Das DSA-Händlertool (DSA-H) Projekt ist eine Neuentwicklung. Ziel ist die Unterstützung des Spielleiters zur Vereinfachung des Spielablaufs &amp; Persistenz der Händler.</p>
+            <p>Das DSA-Händlertool soll es ihnen leichter machen den Marktplatz in
+Städten darzustellen. Mit ihm können Händler verschiedener Typen
+erschaffen werden, die dann bestimmte, automatisch generierte,
+Waren zum Kauf anbieten. Diese Händler können Ortsfest sein,
+sodass man sie bei jedem weiteren Besuch in der Stadt wiedertrifft.
+Vorgegeben wurden in der Datenbank alle Handelszonen aus dem AA
+(S133). Sowie einige Städte und ein Teil der Waren. Als Benutzer
+kann man die Datenbank für sich nach belieben erweitern, oder Teile
+herausnehmen. </p>
 
-            <p>Die Anwendung soll den Spielleiter im Pen &amp; Paper Spiel DSA dabei unterstützen, Händler und ihr Sortiment zu erstellen, zu verwalten und zu speichern. Zusätzlich soll sie Interaktionen mit den Händlern vereinfachen. In DSA übernimmt jeder Spieler die Rolle eines Charakters. Der Spielleiter stellt die komplette Welt dar, er beschreibt die Welt und spielt Nicht-Spieler-Charaktere (NPC) wie z.B. Händler. Die Verfügbarkeit und der Preis bestimmter Waren werden dabei üblicherweise nach komplizierten Regeln ausgewürfelt. Bisher können die Spielregeln ausgenutzt werden, da die Verfügbarkeit von Waren und Händlern vom Spielleiter nicht persistiert werden, in dem Städte wiederholt neu betreten werden und dadurch jedes Mal neu ausgewürfelte Händler vor Ort sind bis schließlich der gewünschte erscheint. Das selbe Prinzip gilt auch für die Verfügbarkeit von Waren und deren Preise. Außerdem sind die Berechnungen der Wahrscheinlichkeiten für die Verfügbarkeiten aufwendig und zeitraubend, weshalb sie in der Praxis selten exakt durchgeführt werden.</p>
-
-            <h2>Handbuch (Kurzfassing)</h2>
-            <p>
                 <a href="https://github.com/geoHeil/TU-SEPM/blob/gh-pages/releases/version3/Handbuch.pdf">Hier die Langfassung als PDF</a>
-            </p>
-            Unser Tool gliedert sich in zwei Schritte:
-            <ul>
-                <li>Das Anlegen von Daten</li>
-                <li>Spielphase</li>
-            </ul>
-            <h3>Das Anlegen von Daten</h3>
-            <p>Alle Daten werden im Menüpunkt DATEN VERWALTEN angelegt. Dies gilt jedoch nicht für Orte bzw. Händler. Dies erfolgt direkt im Hauptfenster über ORT PLATZIEREN bzw. HÄNDLER / WIRTSHAUS PLATZIEREN im jeweiligen Ort.</p>
-            <p>Unter DATEI/Händler drucken können ALLE Händler ausgedruckt werden um während des Spieles übersichtlicher auf diese zuzugreifen. Es wird ein PDF erzeugt, welches beliebig weiterverarbeitet werden kann.
-                <br>Bestehende Spiel- und Weltdaten lassen sich über IMPORT / EXPORT samt der verwendeten Karten im-bzw. exportieren.
-                <br>Mit den KARTENOPTIONEN kann man die Farbe und Größe der Symbole bestimmen und so sicherstellen, dass die Bezeichnungen lesbar sind.
-                <br>
-                <h3>Spielphase</h3>
-                Zunächst sind unter SPIEL/SPIELER die am aktuellen Spiel beteiligten Spieler einzutragen.
-                <br>Das Umrechnen von Währungen wie auch das Berechnen von Preisen ist im Menü SPIEL aufzufinden.
-                <br>Der Menüpunkt Zeit vorwärts stellen füllt das Sortiment der Händler wieder auf bzw. sorgt dafür, dass Fahrende Händler weiterziehen.
-                <br>Jeder Ort weist eine Ortsansicht auf in der die Wirtshäuser bzw. Händler im Ort angezeigt werden.
-                <h3>Systemanforderungen</h3>
-                <ul>
-                    <li>
-                        Kartenmaterial:
-                        <br>Liefern wir aus lizensierungs Gründen leider NICHT mit aus.</li>
-                    <li>Computer:
-                        <br>(am besten Windows) mit JAVA 8. Bei JAVA 8 am besten die AKTUELLSTE Version ( Aktuell: Java 8.0.5)</li>
-                    <li>Java:
+
+           <h3>Systemanforderungen</h3>
+                <p>Java 8:
                         <br>
                         <a target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment 8 installiert</a>
-                    </li>
-                </ul>
+                </p>
                 <h3>Installation</h3>
-                <ul>
-                    <li>Aktuellste Version aus dem GIT auschecken und mit: mvm -install installieren</li>
-                    <li>ZIP herunterladen &amp; entpacken</li>
-                </ul>
+                   <p>ZIP herunterladen &amp; entpacken</p>
                 <h3>FAQ</h3>
-                <ul>
-                    <li>
-                        <a href="https://github.com/geoHeil/TU-SEPM/blob/gh-pages/releases/version3/Handbuch.pdf">Bevor Fragen gestellt werden bitte die Langfassung durchlesen</a>
-                    </li>
-                </ul>
-                <h2>Versionen</h2>
+               
+                <h2>Download</h2>
                 <p>
                     Die erste Version ist ein Hello World zur Gebiets / und Grenzenverwaltung. Folgende ausführbaren JAVA Applications sind verfügbar:
                     <ul>
@@ -111,10 +82,9 @@
                     </ul>
                 </p>
 
-                <h3>Feedback bitte an diese Mailadresse senden</h3>
+                <h3>Feedback, Bugs, Verbesserungsvorschläge bitte an diese Email Adresse</h3>
                 <p>dsa@bountin.net</p>
                 <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
 </body>
 
 </html>
